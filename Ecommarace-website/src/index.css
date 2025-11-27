@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --DarkMode:"class";
+  --color-primary: #fea928;
+  --color--econdary: #ed8900;
+
+  --container{
+  --center: "true";
+
+  padding {
+  --DEFAULT:"1rem";
+  --sm:"3rem";
+  }
+  }
+  plugins:[]
+}
+ 
