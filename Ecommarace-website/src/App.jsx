@@ -1,13 +1,13 @@
   import React from "react";
   import Navbar from "../src/Components/Navbax/Navbar.jsx"
-import Hero from "./Components/Hero/Hero";
-import Products from "./Components/Products/Products";
-import TopProducts from "./Components/TopProducts/TopProducts";
-import Banner from "./Components/Banner/Banner";
-import Subscribe from "./Components/Subscribe/Subscribe";
-import Testimonials from "./Components/Testimonials/Testimonials";
-import Footer from "./Components/Footer/Footer";
-import Popup from "./Components/Popup/Popup";
+import Hero from "./Components/Hero/Hero.jsx";
+import Products from "./Components/Products/Products.jsx";
+import TopProducts from "./Components/TopProducts/TopProducts.jsx";
+import Banner from "./Components/Banner/Banner.jsx";
+import Subscribe from "./Components/Subscribe/Subscribe.jsx";
+import Testimonials from "../src/Components/Testimonial/Testimonial.jsx"
+import Footer from "../src/Components/Footer/Footer.jsx";
+import Popup from "./Components/Popup/Popup.jsx";
 
 
   const App = () => {
